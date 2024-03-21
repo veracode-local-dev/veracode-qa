@@ -22,7 +22,7 @@ jobs:
         repository: ${{ inputs.repository }}
         ref: ${{ inputs.ref }}
         token: ${{ inputs.token }}
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         path: 'veracode-helper'
     - uses: actions/setup-java@v4
